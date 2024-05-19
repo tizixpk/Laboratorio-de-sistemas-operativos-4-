@@ -1,4 +1,4 @@
-# Ejercicios script en bsh
+# Ejercicios script en bash
 **1. Imprimir "Hola, mundo!":**
 ```bash
 
