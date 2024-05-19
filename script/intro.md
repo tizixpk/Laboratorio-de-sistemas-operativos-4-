@@ -63,7 +63,7 @@ if [ $a -le $b ]; then
 fi
 ```
 ## Otros Operadores Aritméticos Comunes
- - lt: "less than" (menor que)
+ - -lt: "less than" (menor que)
     - Verifica si un número es menor que otro.
     - Ejemplo
    ```bash
@@ -71,7 +71,7 @@ fi
     echo "$a es menor que $b"
    fi
    ```
- - ge: "greater than or equal" (mayor o igual a)
+ - -ge: "greater than or equal" (mayor o igual a)
    - Verifica si un número es mayor o igual que otro.
    - Ejemplo:
    ```bash
@@ -79,7 +79,7 @@ fi
     echo "$a es mayor o igual que $b"
    fi
    ```
-- ne: "not equal" (no igual a)
+- -ne: "not equal" (no igual a)
   - Verifica si dos números no son iguales.
   - Ejemplo:
   ```bash
@@ -87,6 +87,36 @@ fi
     echo "$a es mayor o igual que $b"
    fi
   ```
+## Ejemplo Completo
+```bash
+#!/bin/bash
+
+echo "Ingrese el primer número:"
+read num1
+
+echo "Ingrese el segundo número:"
+read num2
+
+if [ $num1 -gt $num2 ]; then
+    echo "$num1 es mayor que $num2"
+elif [ $num1 -eq $num2 ]; then
+    echo "$num1 es igual a $num2"
+else
+    echo "$num1 es menor que $num2"
+fi
+
+if [ $num1 -le 10 ]; then
+    echo "$num1 es menor o igual a 10"
+fi
+
+if [ $num2 -ge 5 ]; then
+    echo "$num2 es mayor o igual a 5"
+fi
+
+if [ $num1 -ne $num2 ]; then
+    echo "$num1 no es igual a $num2"
+fi
+```  
 ## Comandos basicos I/O
 ```bash
 #!/bin/bash
