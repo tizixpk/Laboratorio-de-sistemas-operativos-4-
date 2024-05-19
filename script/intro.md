@@ -54,5 +54,69 @@ echo "Hola, $nombre! Tienes $edad años."
 
 # Usar printf para mostrar los datos de manera formateada
 printf "Nombre: %s\nEdad: %d\n" "$nombre" "$edad"
-``
+```
+## Estructuras Condicionales
+**1. if-else**
+```bash
+if [ condición ]; then
+    # Bloque de comandos si la condición es verdadera
+elif [ otra_condición ]; then
+    # Bloque de comandos si la otra_condición es verdadera
+else
+    # Bloque de comandos si ninguna de las condiciones anteriores es verdadera
+fi
+```
+**2. case**
+```bash
+case $variable in
+    valor1)
+        # Comandos para valor1
+        ;;
+    valor2)
+        # Comandos para valor2
+        ;;
+    *)
+        # Comandos para cualquier otro valor
+        ;;
+esac
+```
+## Bucles
+**1. for**
+```bash
+for variable in lista; do
+    # Bloque de comandos
+done
+```
+**2. while**
+```bash
+while [ condición ]; do
+    # Bloque de comandos
+done
+```
+**3. until**
+```bash
+until [ condición ]; do
+    # Bloque de comandos
+done
+```
+## Ejemplos Prácticos
+**1. if-else**
+```bash
+#!/bin/bash
+
+echo "Ingrese un número:"
+read num
+
+if [ $num -gt 10 ]; then
+    echo "El número es mayor que 10."
+elif [ $num -eq 10 ]; then
+    echo "El número es igual a 10."
+else
+    echo "El número es menor que 10."
+fi
+```
+
+
+
+
 
