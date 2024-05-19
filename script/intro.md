@@ -38,10 +38,55 @@
    - Después de ejecutar el script, deberías ver el mensaje "Hola, mundo!" impreso en la terminal.
 
 ## Operadores aritmeticos
-**-gt: "greater than" (mayor que)**
+**1. -gt: "greater than" (mayor que)**
   - Se utiliza para verificar si un número es mayor que otro.
-
-
+  - Ejemplo:
+```bash
+if [ $a -gt $b ]; then
+    echo "$a es mayor que $b"
+fi
+```
+**2. -eq: "equal" (igual a)**
+  - Se utiliza para verificar si dos números son iguales.
+  - Ejemplo
+```bash
+if [ $a -eq $b ]; then
+    echo "$a es igual a $b"
+fi
+```
+**3. -le: "less than or equal" (menor o igual a)**
+  - Se utiliza para verificar si un número es menor o igual que otro.
+  - Ejemplo
+```bash
+if [ $a -le $b ]; then
+    echo "$a es menor o igual que $b"
+fi
+```
+## Otros Operadores Aritméticos Comunes
+ - lt: "less than" (menor que)
+    - Verifica si un número es menor que otro.
+    - Ejemplo
+   ```bash
+   if [ $a -lt $b ]; then
+    echo "$a es menor que $b"
+   fi
+   ```
+ - ge: "greater than or equal" (mayor o igual a)
+   - Verifica si un número es mayor o igual que otro.
+   - Ejemplo:
+   ```bash
+   if [ $a -ge $b ]; then
+    echo "$a es mayor o igual que $b"
+   fi
+   ```
+- ne: "not equal" (no igual a)
+  - Verifica si dos números no son iguales.
+  - Ejemplo:
+  ```bash
+     if [ $a -ge $b ]; then
+    echo "$a es mayor o igual que $b"
+   fi
+  ```
 ## Comandos basicos I/O
 ```bash
 #!/bin/bash
