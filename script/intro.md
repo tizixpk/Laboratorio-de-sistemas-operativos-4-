@@ -37,6 +37,11 @@
 7. **Resultado:**
    - Después de ejecutar el script, deberías ver el mensaje "Hola, mundo!" impreso en la terminal.
 
+## Operadores aritmeticos
+**-gt: "greater than" (mayor que)**
+  - Se utiliza para verificar si un número es mayor que otro.
+
+
 ## Comandos basicos I/O
 ```bash
 #!/bin/bash
@@ -116,7 +121,57 @@ else
 fi
 ```
 
+**2. case**
+```bash
+#!/bin/bash
 
+echo "Ingrese una opción (a, b, c):"
+read opcion
 
+case $opcion in
+    a)
+        echo "Opción A seleccionada."
+        ;;
+    b)
+        echo "Opción B seleccionada."
+        ;;
+    c)
+        echo "Opción C seleccionada."
+        ;;
+    *)
+        echo "Opción no válida."
+        ;;
+esac
+```
+## Bucles
+**1. for**
+```bash
+#!/bin/bash
 
+for i in 1 2 3 4 5; do
+    echo "Número: $i"
+done
+```
+**2. while**
+```bash
+#!/bin/bash
+
+contador=1
+
+while [ $contador -le 5 ]; do
+    echo "Contador: $contador"
+    contador=$((contador + 1))
+done
+```
+**3. until**
+```bash
+#!/bin/bash
+
+contador=1
+
+until [ $contador -gt 5 ]; do
+    echo "Contador: $contador"
+    contador=$((contador + 1))
+done
+```
 
