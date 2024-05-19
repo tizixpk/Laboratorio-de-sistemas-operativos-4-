@@ -37,3 +37,22 @@
 7. **Resultado:**
    - Después de ejecutar el script, deberías ver el mensaje "Hola, mundo!" impreso en la terminal.
 
+## Comandos basicos I/O
+```bash
+#!/bin/bash
+
+# Pedir el nombre del usuario
+echo "Ingrese su nombre:"
+read nombre
+
+# Pedir la edad del usuario
+echo "Ingrese su edad:"
+read edad
+
+# Mostrar los datos ingresados
+echo "Hola, $nombre! Tienes $edad años."
+
+# Usar printf para mostrar los datos de manera formateada
+printf "Nombre: %s\nEdad: %d\n" "$nombre" "$edad"
+``
+
