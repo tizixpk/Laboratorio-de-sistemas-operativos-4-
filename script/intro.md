@@ -249,4 +249,20 @@ until [ $contador -gt 5 ]; do
     contador=$((contador + 1))
 done
 ```
+## Concepto de Funciones en Bash
+Una función en Bash es un bloque de código reutilizable que puede ser llamado en cualquier parte del script. Las funciones permiten organizar el código de manera modular y evitar la repetición de código. Pueden aceptar parámetros y devolver valores.
 
+### Definición de una Función
+Para definir una función en Bash, puedes usar la siguiente sintaxis:
+```bash
+function nombre_de_la_funcion {
+    # Bloque de código de la función
+}
+```
+O alternativamente:
+```bash
+nombre_de_la_funcion() {
+    # Bloque de código de la función
+}
+```
+... falta completar este tema
