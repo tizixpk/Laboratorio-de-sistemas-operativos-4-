@@ -45,7 +45,13 @@ chmod +x NumerosImpares.sh
 ```
 **5. Imprimir los números del 1 al 10:**
 ```bash
-
+nano Numeros.sh
+  #!/bin/bash
+    for i in 1 2 3 4 5 6 7 8 9 10; do
+     echo "Número: $i"
+       done
+chmod +x Numeros.sh
+./Numeros.sh
 ```
 **6. Mostrar los archivos y directorios en el directorio actual:**
 ```bash
