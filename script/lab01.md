@@ -55,10 +55,26 @@ chmod +x Numeros.sh
 ```
 **6. Mostrar los archivos y directorios en el directorio actual:**
 ```bash
-
+nano Archivos.sh
+  #!/bin/bash
+   ls
+ch +x Archivos.sh
+./Archivos.sh
 ```
 **7. Leer una lista de nombres y mostrarlos uno por uno:**
 ```bash
+nano Nombres.sh
+  #!/bin/bash
+    echo "Ingrese un nombre"
+     read nombre1
+      echo "Ingrese Otro Nombre"
+       read nombre2
+         echo "Ahora El 3er nombre"
+          read nombre3
+           echo "Hola $nombre1 $nombre2 $nombre3 espero que anden bien"
+chmod +x Nombres.sh
+./Nombres.sh
+
 
 ```
 **8. Calcular el área de un rectángulo:**
