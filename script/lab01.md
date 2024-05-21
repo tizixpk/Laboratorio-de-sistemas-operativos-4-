@@ -18,7 +18,16 @@ chmod +x HoraActual.sh
 ```
 **3. Sumar dos números ingresados por el usuario:**
 ```bash
-
+nano SumaDeNumeros.sh
+  #!/bin/bash
+    echo "Ingrese el 1 digito"
+      read num1
+         echo "Ingresa el 2 digito"
+            read num2
+             suma=$(expr $num1 + $num2)
+               echo "La suma es: $suma"
+ chmod +x SumaDeNumeros.sh
+./SumaDeNumeros.sh
 ```
 **4. Verificar si un número es par o impar:**
 ```bash
