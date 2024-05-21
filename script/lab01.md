@@ -79,7 +79,17 @@ chmod +x Nombres.sh
 ```
 **8. Calcular el área de un rectángulo:**
 ```bash
-
+nano Triangulos.sh
+  #!/bin/bash
+   echo "Ingresa La  Base"
+     read base
+      echo "Ingresa La Altura"
+       read altura
+         multiplicacion=$base * $altura
+          division=$multiplicacion/2
+            echo "El area del triangulo es $division
+chmod +x Triangulos.sh
+./Triangulos.sh
 ```
 **9. Convertir grados Celsius a Fahrenheit:**
 ```bash
