@@ -1,7 +1,12 @@
 # Ejercicios script en bash
 **1. Imprimir "Hola, mundo!":**
 ```bash
-
+nano fichero1.sh
+   #!/bin/bash
+    # Este es un comentario
+       echo "Hola, mundo!"
+chmod +x fichero1.sh
+./fichero1.sh
 ```
 **2. Imprimir la fecha y hora actual:**
 ```bash
