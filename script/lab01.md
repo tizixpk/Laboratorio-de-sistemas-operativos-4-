@@ -10,7 +10,11 @@ chmod +x fichero1.sh
 ```
 **2. Imprimir la fecha y hora actual:**
 ```bash
-
+nano HoraActual.sh
+  #!/bin/bash
+    echo "La hora actual es: $(date +%T)"
+chmod +x HoraActual.sh
+./HoraActual.sh
 ```
 **3. Sumar dos números ingresados por el usuario:**
 ```bash
