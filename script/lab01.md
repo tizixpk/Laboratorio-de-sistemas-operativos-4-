@@ -31,7 +31,17 @@ nano SumaDeNumeros.sh
 ```
 **4. Verificar si un número es par o impar:**
 ```bash
-
+nano NumerosImpares.sh
+  #!/bin/bash
+   echo "Ingrese El Primer Numero"
+    read num1
+     if [ $((num1 % 2)) -eq 0 ]; then
+      echo "$num1 es un numero par"
+        else
+         echo "$num1 es impar"
+           fi
+chmod +x NumerosImpares.sh
+./NumerosImpares.sh
 ```
 **5. Imprimir los números del 1 al 10:**
 ```bash
