@@ -226,6 +226,10 @@ esac
 for i in 1 2 3 4 5; do
     echo "Número: $i"
 done
+
+for i in {1..10}; do
+    echo "Número: $i"
+done
 ```
 **2. while**
 ```bash
