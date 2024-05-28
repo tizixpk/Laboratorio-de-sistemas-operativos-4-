@@ -104,7 +104,14 @@ chmod +x GradosCelsius.sh
 ```
 **10. Realizar una operación matemática con bc (calculadora de precisión arbitraria):**
 ```bash
-
+nano AB.sh
+ #!/bin/bash
+  echo "Introduce el primer numero"
+   read num1
+    echo "Introduce el segundo numero"
+     read num2
+      suma=$(echo "$num1 + $num2" |bc)
+       echo "La suma entre los dos da $suma"
 ```
 
 
