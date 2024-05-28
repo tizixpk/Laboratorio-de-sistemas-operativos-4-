@@ -93,7 +93,14 @@ chmod +x Triangulos.sh
 ```
 **9. Convertir grados Celsius a Fahrenheit:**
 ```bash
-
+nano GradosCelsius.sh
+ #!/bin/bash
+   echo "Escribe los grados en celsius"
+     read grados1
+        farenheit=$(($grados1*9/5+32))
+          echo  $farenheit
+chmod +x GradosCelsius.sh
+./GradosCelsius.sh
 ```
 **10. Realizar una operación matemática con bc (calculadora de precisión arbitraria):**
 ```bash
