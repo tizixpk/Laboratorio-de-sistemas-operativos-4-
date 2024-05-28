@@ -58,7 +58,7 @@ chmod +x Numeros.sh
 nano Archivos.sh
   #!/bin/bash
    ls
-ch +x Archivos.sh
+chmod +x Archivos.sh
 ./Archivos.sh
 ```
 **7. Leer una lista de nombres y mostrarlos uno por uno:**
