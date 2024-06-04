@@ -47,27 +47,27 @@ Arrancaremos en **modo seguro** tal y como hemos visto en teoría y seleccionare
 
 Nos pedirá el usuario administrador para restaurar el equipo.
 
-![Usuario administrador](CrearPuntoRestauracion/CrearPuntoRestauracion_072916.png)
+![Usuario administrador](CrearPuntoRestauracion_072916.png)
 \ 
 
 Y a continuación un pequeño asistente nos guiará para restaurar el equipo.
 
-![Asistente](CrearPuntoRestauracion/CrearPuntoRestauracion_072935.png)
+![Asistente](CrearPuntoRestauracion_072935.png)
 \ 
 
 Si tenemos múltiples puntos de restauración en esta ventana se nos permitirá elegir el que deseemos. 
 
-![Listado puntos restauración](CrearPuntoRestauracion/CrearPuntoRestauracion_072954.png)
+![Listado puntos restauración](CrearPuntoRestauracion_072954.png)
 \ 
 
 Una vez tengamos claro que punto de restauración vamos a utilizar, lo seleccionamos y nos mostrará un resumen con las operaciones que van a tener lugar.
 
-![Resumen punto restauración](CrearPuntoRestauracion/CrearPuntoRestauracion_073006.png)
+![Resumen punto restauración](CrearPuntoRestauracion_073006.png)
 \ 
 
 El proceso tardará un tiempo, dependiendo del punto de restauración elegido y de la potencia del equipo.
 
-![Progreso Restauración](CrearPuntoRestauracion/CrearPuntoRestauracion_073020.png)
+![Progreso Restauración](CrearPuntoRestauracion_073020.png)
 \ 
 
 ## Ejercicio 1
