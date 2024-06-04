@@ -19,7 +19,7 @@ Para crear ese punto de restauración, iremos a **Configuración** y en la búsq
 No nos deja crear el punto de restauración a menos que habilitemos la configurar de protección. Para ello pulsamos el botón **Configurar** y dejamos las opciones como se muestra en la captura:
 
 
-![Activar proteccion](CrearPuntoRestauracion/CrearPuntoRestauracion_072637.png)
+![Activar proteccion](CrearPuntoRestauracion_072637.png)
 \ 
 
 En el apartado que seleccionamos el uso máximo del disco deberemos tener en cuenta de cuanto Disco Duro dispone el equipo y cuanto queremos utilizar para almacenar puntos de restauración.
